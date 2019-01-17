@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "AntonAmosov\\MathCaptcha\\": "src/"
+            "Antonamosov\\MathCaptcha\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AntonAmosov\\MathCaptcha\\MathCaptchaServiceProvider"
+                "Antonamosov\\MathCaptcha\\MathCaptchaServiceProvider"
             ]
         }
     }
