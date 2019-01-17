@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-composer require elic-dev/laravel-math-captcha
+composer require antonamosov/laravel-math-captcha
 ```
 
 ### Setup Laravel > 5.5
