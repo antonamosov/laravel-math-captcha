@@ -1,12 +1,12 @@
 {
-    "name": "elic-dev/laravel-math-captcha",
-    "description": "A simple math captcha for Laravel form validation.",
+    "name": "antonamosov/laravel-math-captcha",
+    "description": "A simple math captcha for Laravel form validation with different operations.",
     "keywords": ["captcha", "math-captcha", "math", "laravel", "laravel5"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Matthias Lill",
-            "email": "m.lill@gmx.de"
+            "name": "Anton Amosov",
+            "email": "amosaa055@yandex.ru"
         }
     ],
     "require": {
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "ElicDev\\MathCaptcha\\": "src/"
+            "AntonAmosov\\MathCaptcha\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ElicDev\\MathCaptcha\\MathCaptchaServiceProvider"
+                "AntonAmosov\\MathCaptcha\\MathCaptchaServiceProvider"
             ]
         }
     }
